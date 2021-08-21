@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore src",
+    "format": "prettier ./src --write"
+  },
+  "dependencies": {
+    "vue": "^3.2.4",
+    "vue-router": "^4.0.11"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.7.0",
+    "@iconify/vue": "^3.0.0",
+    "@types/node": "^16.7.1",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@vitejs/plugin-vue": "^1.4.0",
+    "@vue/compiler-sfc": "^3.2.4",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "8.3.0",
+    "prettier": "2.3.2",
+    "sass": "^1.37.5",
+    "typescript": "^4.3.5",
+    "vite": "^2.5.0",
+    "vite-plugin-pages": "^0.17.4",
+    "vue-tsc": "^0.2.3"
+  }
+}
