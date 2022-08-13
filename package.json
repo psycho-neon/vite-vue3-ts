@@ -22,7 +22,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^0.26.1",
     "@intlify/vite-plugin-vue-i18n": "^6.0.1",
-    "@types/node": "^18.7.2",
+    "@types/node": "^18.7.3",
     "@types/nprogress": "^0.2.0",
     "@vitejs/plugin-vue": "^3.0.3",
     "eslint": "^8.21.0",
